@@ -1,0 +1,22 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 15
+    GLA_ID Integer ;
+    Borough_Ref Char (10) ;
+    Name Char (100) ;
+    Location Char (254) ;
+    SuppliedPostcode Char (20) ;
+    NearestPostcode Char (10) ;
+    Borough Char (50) Index 1 ;
+    Organisation Char (254) ;
+    Facilities Char (100) ;
+    Grade Char (100) ;
+    Comments Char (100) ;
+    Easting Integer ;
+    Northing Integer ;
+    Latitude Decimal (10, 6) ;
+    Longitude Decimal (10, 6) ;
